@@ -17,7 +17,7 @@ public class LayoutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_activity);
 
         btnLand = findViewById(R.id.btn_landscape);
         btnPort = findViewById(R.id.btn_portrait);
